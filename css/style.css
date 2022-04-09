@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Syne+Mono&display=swap');
+:root{
+    --Dark-Blue: hsl(233, 26%, 24%);
+    --Lime-Green: hsl(136, 65%, 51%);
+    --Bright-Cyan: hsl(192, 70%, 51%);
+    --Grayish-Blue: hsl(233, 8%, 62%);
+    --Light-Grayish-Blue: hsl(220, 16%, 96%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family:'Public Sans';
+    
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--Grayish-Blue) !important;
+}
+header a:hover{
+    border-bottom: 3px solid var(--Lime-Green);
+    color: black;
+    
+}
+header ul a:hover{
+    color: black !important;
+
+}
+
+
+.Btn-invite{
+    background-color: var(--Lime-Green);
+    text-align: center;
+    border: 2px solid var(--Bright-Cyan);
+    
+}
+.Btn-invite:hover{
+    background-color: var(--Lime-Green);
+    color: white;
+    border: 2px solid var(--Bright-Cyan);
+}
+.Btn-invite a{
+    
+    color: white !important;
+    
+}
+main p{
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 25px;
+}
+.container-1{
+    background-color:rgb(247, 247, 242);
+    
+}
+.container-2{
+    background-color:var(--Very-Light-Gray);
+    padding-top: 8%;
+    margin-top: -6%;
+    
+}
+.container-3 img{
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.container-3 small{
+    line-height: 2.9em;
+}
+.container-3 h4:hover,footer a:hover{
+    color: var(--Lime-Green);
+}
+main h2,main p{
+    text-align: center;
+}
+.cont-box{
+    box-shadow: 0px 0px 20px black;
+}
+.cont-box :hover{
+    font-size: 30px;
+}
+footer{
+    background-color: var(--Dark-Blue);
+}
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width:700px) {
+    .container-1{
+        margin-bottom: 10%;
+        
+    }
+    
+    
+}
+
